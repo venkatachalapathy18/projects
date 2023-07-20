@@ -1,0 +1,62 @@
+package venkatachalapathy19;
+
+public class A19 {
+
+	public static void main(String[] args)
+	{
+		for(int x=1;x<=5;x++)
+      {
+    	  for(int a=x;a<=5;a++)
+    	  {
+    	  System.out.print(a+" ");
+      }
+	System.out.println();
+	}
+
+}
+}
+
+
+
+OUTPUT:
+1 2 3 4 5
+2 3 4 5
+3 4 5
+4 5
+5
+
+
+
+
+REVERSE ORDER:
+
+package venkatachalapathy19;
+
+public class E20 {
+
+	public static void main(String[] args) {
+		for(int a=1;a<=5;a++)
+		{
+			for(int b=1;b<=a;b++)
+			{
+	
+				System.out.print(b+" ");
+				
+				
+			}
+			System.out.println();
+			
+		}
+
+	}
+
+}
+
+
+
+OUTPUT:
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
